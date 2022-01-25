@@ -454,7 +454,7 @@ switch (command) {
  
  case 'menu': 
  case 'help':
-    capt = `────  *DyLux  ┃ ᴮᴼᵀ*  ────
+    capt = `= Carlos El Bot :v =
     
 ${msg.hi} *${pushname}* ${ucapanWaktu}
     
@@ -462,12 +462,12 @@ ${msg.hi} *${pushname}* ${ucapanWaktu}
 ⎔ *Premium* : ${prem}
 
 ▢ ${msg.cretb}
-• https://youtu.be/F4lGWb1WXgM 
+• https://www.youtube.com/watch?v=xIn2oPgN3EI&t=177s&ab_channel=Hayes
 
 ${readMore}
 ${menu(prefix)} 
 `
-    Fg.send3ButtonLoc(from, thumbfg, capt, `▢ *DyLux  ┃ ᴮᴼᵀ*\n▢ *Total Hits* : ${isTotalcmd}\n▢ *Usuarios* : ${User.length}\n▢ *Runtime* : ${kyun(process.uptime())}\n\n${msg.foll}`,  '✆ Owner', `${prefix}owner`, '⏍ Info', `${prefix}info`, `⌬ ${msg.gp}s`, `${prefix}grupos`)
+    Fg.send3ButtonLoc(from, thumbfg, capt, `▢ *Carlos El Bot :v*\n▢ *Total Hits* : ${isTotalcmd}\n▢ *Usuarios* : ${User.length}\n▢ *Runtime* : ${kyun(process.uptime())}\n\n${msg.foll}`,  'Owner', `${prefix}owner`, 'Info', `${prefix}info`, `⌬ ${msg.gp}s`, `${prefix}grupos`)
     break
     
    /*case 'menuvc': 
@@ -489,19 +489,12 @@ ${menuVC}
     case 'groups': 
     case 'dylux': 
     gps = `
-≡  *DyLux  ┃ ᴮᴼᵀ*  GRUPOS
+≡  *Grupos
 
-▢ ${msg.gp} 1
-https://chat.whatsapp.com/G5sXrkhJ0pb0Tu8nhWLaFK
-
-▢ ${msg.gp} 2
-https://chat.whatsapp.com/CDUqNRu5Kh5KY5uqQI0BKE
-
-▢ ${msg.gp} 3
-https://chat.whatsapp.com/FSVDTytQxnTIPx8t8wBWeM
+Esta informacion es privada :v
 
 ▢ *YouTube*
-• https://www.youtube.com/fg98f
+• https://www.youtube.com/watch?v=xIn2oPgN3EI&t=177s&ab_channel=Hayes
 `
 m.reply(gps)
 break 
@@ -548,7 +541,7 @@ case 'developer':
     capt = `▢ ${msg.num} : @${number.split('@')[0]}\n\n`
     capt += '▢ Instagram : https://www.instagram.com/fg98._'
     await Fg.fakeLink(from, capt, thumbfg, `${msg.click}`, 'https://www.instagram.com/fg98._', mek)*/
-   Fg.sendContact(from, '5493885839638', 'FG98', mek) 
+   Fg.sendContact(from, '573195679905', 'Hayes', mek) 
     break
     
     case 'info':
@@ -579,13 +572,11 @@ case 'developer':
 ▢ Versi Wa : ${Fg.user.phone.wa_version}
 
 *≡ OWNER*
-▢ Instagram : https://www.instagram.com/fg98._
-▢ WhatsApp : wa.me/59172945992 
+▢ Instagram : https://www.instagram.com/ha_ye_s
+▢ WhatsApp : wa.me/573195679905 
 
-*≡ SCRIPT*
-▢ Git : ${package.homepage} 
 ` 
-Fg.send2Button(from, teks, '*_© FG98 DyLux_*', `ꨄ︎ Apoyar`, `${prefix}donate`, `⌬ ${msg.gp}s`, `${prefix}grupos`)
+Fg.send2Button(from, teks, '*_© Hayes_*', `ꨄ︎ Apoyar`, `${prefix}donate`, `⌬ ${msg.gp}s`, `${prefix}grupos`)
    break
    
     case 'nameninja':
@@ -635,7 +626,7 @@ prefg = await fetchJson(`https://api.simsimi.net/v2/?text=${value}&lc=${cekBahas
  m.reply(`≡ *PREGUNTAS*
  
 ▢ *Pregunta:* ${value}
-▢ *Respuesta :* ${prefg.success.replace('simsimi', 'DyLux').replace('Simsimi', 'DyLux').replace('sim simi', 'DyLux')}`) 
+▢ *Respuesta :* ${prefg.success.replace('simsimi', 'Carlos').replace('Simsimi', 'Carlos').replace('sim simi', 'Carlos')}`) 
 break 
 
 case 'afk':
@@ -2204,7 +2195,7 @@ switch(VoiceCommand) {
   
  case 'menu': 
  case 'help':
-    capt = `────  *DyLux  ┃ ᴮᴼᵀ*  ────
+    capt = `Carlos el Bot :v
     
 ${msg.hi} *${pushname}* ${ucapanWaktu}
     
@@ -2212,12 +2203,12 @@ ${msg.hi} *${pushname}* ${ucapanWaktu}
 ⎔ *Premium* : ${prem}
 
 ▢ ${msg.cretb}
-• https://youtu.be/F4lGWb1WXgM 
+• https://www.youtube.com/watch?v=xIn2oPgN3EI&t=177s&ab_channel=Hayes
 
 ${readMore}
 ${menu(prefix)} 
 `
-    Fg.send3ButtonLoc(from, thumbfg, capt, `▢ *DyLux  ┃ ᴮᴼᵀ*\n▢ *Total Hits* : ${isTotalcmd}\n▢ *Usuarios* : ${User.length}\n▢ *Runtime* : ${kyun(process.uptime())}\n\n${msg.foll}`, `⦙☰ Menu Vc`, `${prefix}menuvc`, '✆ Owner', `${prefix}owner`, '⏍ Info', `${prefix}info`)
+    Fg.send3ButtonLoc(from, thumbfg, capt, `▢ *Carlos El Bot *\n▢ *Total Hits* : ${isTotalcmd}\n▢ *Usuarios* : ${User.length}\n▢ *Runtime* : ${kyun(process.uptime())}\n\n${msg.foll}`, `⦙☰ Menu Vc`, `${prefix}menuvc`, '✆ Owner', `${prefix}owner`, '⏍ Info', `${prefix}info`)
     break
   
   case 'google':

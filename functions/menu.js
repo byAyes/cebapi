@@ -1,5 +1,5 @@
 exports.menu = (v) => {
-  return `┌─⊷ *MAIN* 
+  return `┌─⊷ *Principal* 
 ▢ ${v}menuvc
 ▢ ${v}bot <text>
 ▢ ${v}info
@@ -13,29 +13,29 @@ exports.menu = (v) => {
 ▢ ${v}chatbot on/off
 └─────────────
 ≡ List Menu
-┌─⊷ *FUN* 
+┌─⊷ *Chistoso :v* 
 ▢ ${v}fake text|@user|text
 ▢ ${v}preg
 └─────────────
-┌─⊷ *GAMES* 
+┌─⊷ *Juegos* 
 ▢ ${v}verdad
 ▢ ${v}reto
 ▢ ${v}ppt
 └─────────────
-┌─⊷ *STICKER* 
+┌─⊷ *Stikers* 
 ▢ ${v}sticker <nombre>|<autor>
 ▢ ${v}take <nombre>|<autor>
 ▢ ${v}toimg
 ▢ ${v}attp
 └─────────────
-┌─⊷ *PICTURE* 
+┌─⊷ *Fotos* 
 ▢ ${v}pinterest
 ▢ ${v}imagen
 ▢ ${v}girl
 ▢ ${v}man
 ▢ ${v}wallpaper
 └─────────────
-┌─⊷ *TOOLS*
+┌─⊷ *Util*
 ▢ ${v}afk <razon>
 ▢ ${v}fakethumb
 ▢ ${v}tomp3
@@ -43,15 +43,15 @@ exports.menu = (v) => {
 ▢ ${v}q
 ▢ ${v}say <text>
 └─────────────
-┌─⊷ *EDUCACIÓN* 
+┌─⊷ *Traductor XD* 
 ▢ ${v}translate <lang><text>
 └─────────────
-┌─⊷ *BUSQUEDA*
+┌─⊷ */buscar :v*
 ▢ ${v}playstore
 ▢ ${v}ytsearch
 ▢ ${v}google
 └─────────────
-┌─⊷ *DOWNLOAD* 
+┌─⊷ *Descargas* 
 ▢ ${v}play
 ▢ ${v}play2
 ▢ ${v}playvid
@@ -63,14 +63,14 @@ exports.menu = (v) => {
 ▢ ${v}tiktokaudio <link>
 ▢ ${v}mediafire <link>
 └─────────────
-┌─⊷ *TEXT MAKER*
+┌─⊷ *Creador de textos*
 ▢ ${v}nameninja <text>
 ▢ ${v}typewriter <text>
 ▢ ${v}blackpill <text>
 ▢ ${v}sans <text>
 ▢ ${v}castle <text>
 └─────────────
-┌─⊷ *DATABASE* 
+┌─⊷ *Base de datos* 
 ▢ ${v}addimg <text>
 ▢ ${v}addvid <text>
 ▢ ${v}addstick <text>
@@ -81,12 +81,12 @@ exports.menu = (v) => {
 ▢ ${v}getav <text>
 ▢ ${v}listmedia
 └─────────────
-┌─⊷ *VOTING* 
+┌─⊷ *Votaciones* 
 ▢ ${v}voting <text>
 ▢ ${v}delvote
 ▢ ${v}checkvote
 └─────────────
-┌─⊷ *ADMIN* 
+┌─⊷ *Admins cmds* 
 ▢ ${v}setwelcome
 ▢ ${v}setbye
 ▢ ${v}delwelcome
@@ -110,7 +110,7 @@ exports.menu = (v) => {
 ▢ ${v}delwarn @user
 ▢ ${v}warns @user
 └─────────────
-┌─⊷ *GRUPO*
+┌─⊷ *Grupo*
 ▢ ${v}welcome on/off
 ▢ ${v}antidelete on/off
 ▢ ${v}detect on/off
@@ -120,7 +120,7 @@ exports.menu = (v) => {
 ▢ ${v}profile
 ▢ ${v}invite <549xxxx> 
 └─────────────
-┌─⊷ *OWNER* 
+┌─⊷ *Dueño Bv* 
 ▢ ${v}addpremium @user
 ▢ ${v}delpremium @user
 ▢ ${v}ban @user

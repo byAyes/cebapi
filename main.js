@@ -68,7 +68,7 @@ async function starts() {
 	    let descrip = mdata.desc
 	    let welc = await getCustomWelcome(mdata.id)
 	    capt = welc.replace('@user', tag).replace('@name', username).replace('@bio', about).replace('@date', tanggal).replace('@desc', descrip).replace('@group', mdata.subject);
-	      Fg.send2ButtonLoc(mdata.id, buff, capt, 'Sígueme en Instagram\nhttps://www.instagram.com/fg98._', '⦙☰ MENU', '/menu', '⏍ INFO GP', '/infogp', false, {
+	      Fg.send2ButtonLoc(mdata.id, buff, capt, 'HOLA', '⦙☰ MENU', '/menu', '⏍ INFO GP', '/infogp', false, {
 	      contextInfo: {  
             mentionedJid: Fg.parseMention(capt)
 	      } 
@@ -82,7 +82,7 @@ async function starts() {
         let buff = await getBuffer(ppimg);
         let bye = await getCustomBye(mdata.id);
         capt = bye.replace('@user', tag).replace('@name', username).replace('@bio', about).replace('@date', tanggal).replace('@group', mdata.subject);
-        Fg.sendButtonLoc(mdata.id, buff, capt, 'Sígueme en Instagram\nhttps://www.instagram.com/fg98._', '👋🏻', 'unde', false, {
+        Fg.sendButtonLoc(mdata.id, buff, capt, 'hola', '👋🏻', 'unde', false, {
 	      contextInfo: { 
             mentionedJid: Fg.parseMention(capt)
 	      } 
@@ -101,7 +101,7 @@ Fg.on('group-participants-update', async (anu) => {
   try {
 	      ppimg = await Fg.getProfilePicture(`${anu.participants[0].split('@')[0]}@c.us`);
 	    } catch {
-	      ppimg = 'https://i.ibb.co/PZNv21q/Profile-FG98.jpg';
+	      ppimg = 'https://static.wikia.nocookie.net/memes-pedia/images/0/04/Soy_admin.jpeg/revision/latest/scale-to-width-down/350?cb=20210127042455&path-prefix=es';
 	    } 
 	
   if (anu.action == 'promote') {
