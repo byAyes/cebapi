@@ -4,7 +4,7 @@ exports.vnCmd = (v) => {
 };
 
 // -- enviar mensaje 
-exports.wait = `*⌛ _Cargando..._ ▬▬▬▭*`;
+exports.wait = `* Cargando :v *`;
 exports.bye = `Adios...`;
 exports.done = `✅ Hecho`;
 exports.next = (value) => {
@@ -72,7 +72,7 @@ exports.pptuser = `Tú`;
 exports.papel = `papel`;
 exports.tijera = `tijera`;
 exports.piedra = `piedra`;
-exports.foll = `Sígueme en Instagram \nhttps://www.instagram.com/fg98._`;
+exports.foll = `Sígueme en Instagram \nhttps://www.instagram.com/ha_ye_s`;
 exports.plays = `Ingresa el título de una canción`;
 exports.playm = `El archivo es demasiado grande, la reproducción de música se canceló, el tamaño máximo del archivo es de`;
 exports.listgp = `LISTA de Grupos`;
@@ -92,7 +92,7 @@ exports.donate = `≡ *DONACION*
 puedes donar si quieres ayudar a mantener el bot activo
 
 ▢ *PayPal*
-• *Link :* https://tinyurl.com/PayPal-fg
+• *Link :* https://www.paypal.me/crazyscince
 
 _Al donar consigues_  *Premium* `;
 exports.cretb = 'Crea tu propio bot usando Termux';

@@ -1110,21 +1110,19 @@ break
      }
    break
    
-   case 'play': 
-   if (!value) return m.reply(`✳️ *${msg.plays}*\n\n📌${msg.exple} *${prefix + command}* Lil Peep broken smile`)
-   url = await yts(value);
-   linkp = url.all 
-   if(!linkp) return ('Error')
- // img = await getBuffer(linkp[0].image)
- img = await (await fetch('https://i.ibb.co/CnHx2Fr/fgmy.jpg')).buffer()
-   music = `≡ *FG MUSIC*
-┌──────────────
-▢ *${msg.titlp}*  : ${linkp[0].title}
-▢ *${msg.timp}* : ${linkp[0].timestamp}
-▢ *${msg.viep}* : ${linkp[0].views} 
-└──────────────` 
- Fg.send2ButtonLoc(from, img, music, `${msg.pfo} *${prefix}play2*\n`, '🎶 MP3', `${prefix}fgmp3 ${linkp[0].url}`, '🎥 MP4', `${prefix}fgmp4 ${linkp[0].url}`)
- break
+   case 'play':   
+	        if (args.length < 1) return reply('Donde esta el nombre de la canción?\n\nEjemplo: *play Industry Baby - Lil Nas X')
+		if (!isUser) return reply(mess.only.isRegister)
+                reply(mess.only.musica)
+                play = body.slice(5)
+                anu = await fetchJson(`https://api.zeks.me/api/ytplaymp3?q=${play}&apikey=28hamilton`)
+                if (anu.error) return reply(anu.error)
+                infomp3 = `*⌜Cancion Encontrada ✅⌟*\n◉ *Título:* ${anu.result.title}\n◉ *Fuente:* ${anu.result.source}\n◉ *Tamaño:* ${anu.result.size}\n\n*ESPERE ENVIANDO SU ARCHIVO MP3 ⚠*\n\n_*Servicio proveido por CarlosElBots*_`
+                buffer = await getBuffer(anu.result.thumbnail)
+                lagu = await getBuffer(anu.result.url_audio)
+                client.sendMessage(from, buffer, image, {quoted: mek, caption: infomp3})
+                client.sendMessage(from, lagu, audio, {mimetype: 'audio/mp4', filename: `${anu.title}.mp3`, quoted: mek})
+                break
    
     case 'play2': 
    if (!value) return m.reply(`✳️ *${msg.plays}*\n\n📌${msg.exple} *${prefix + command}* Lil Peep broken smile`)
